@@ -1,0 +1,22 @@
+@media screen and (min-width: 480px){
+
+    .page-index .realisations li {
+        flex-basis: 28%;
+        padding: 1rem 2.5%;
+    }
+
+}
+
+@media screen and (min-width: 660px){
+    .page-index .realisations li {
+        flex-basis: calc(100%/4 - 5%);
+        padding: 1rem 2.5%;
+    }
+}
+@media screen and (min-width: 910px){
+    .page-index .realisations li {
+        flex-basis: calc(100%/5 - 5%);
+        padding: 1rem 2.5%;
+    }
+
+}
